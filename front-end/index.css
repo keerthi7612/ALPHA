@@ -5,7 +5,7 @@
 }
 html {
   /* TYPOGRAPHY */
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Josefin Sans", sans-serif;
   /* WEIGHTS 
   --reg: 400;
@@ -33,13 +33,13 @@ nav {
   padding: 0.5rem 0.2rem;
   display: flex;
   justify-content: space-around;
-  column-gap: 3rem;
+  column-gap: 1rem;
   background-color: var(--drk-orange);
   color: var(--white);
 }
 .logo {
-  margin-top: 1.5rem;
-  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
   font-weight: var(--btn);
 }
 
@@ -54,12 +54,12 @@ nav {
   top: 1rem;
   width: 20rem;
   height: 2rem;
-  right: 5rem;
+  right: 2rem;
   font-size: 1.3rem;
   border: 5px solid var(--drk-gry);
   background-color: var(--drk-gry);
   position: relative;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .search-input::placeholder {
@@ -68,7 +68,7 @@ nav {
 
 .search-icons {
   position: absolute;
-  margin-left: 12rem;
+  margin-left: 15rem;
   top: 1.6rem;
   font-size: 2rem;
 }
@@ -88,7 +88,7 @@ menu {
 
 .nav-btn {
   font-size: 1.3rem;
-  padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0.4rem;
   background-color: var(--drk-gry);
   border: 5px solid var(--drk-gry);
   color: var(--white);
@@ -97,33 +97,38 @@ menu {
 }
 
 .hero-content {
-  background-image: url("./asset/pexels-anilsharma65-10927833.jpg");
-  background-size: contain;
-  opacity: 0.9;
-  filter: blur(1px);
+  background-image: url("./asset/pexels-huzaifabukhari-16845755-min.jpg");
+  background-size: cover;
   position: relative;
-  padding: 10rem 30rem;
+  padding: 30rem 10rem;
   color: var(--white);
   padding-left: 5rem;
-  display: grid;
-  grid-auto-rows: 5rem;
+  padding-top: 8rem;
 }
 
 .hero-content::before {
   content: "";
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  top: 8rem;
+  bottom: 15rem;
+  position: absolute;
+  opacity: (0.9);
+  background-image: blur(10px);
+  z-index: 1;
 }
 
 .wel-btn {
   font-size: 1.3rem;
   color: var(--drk-orange);
   font-weight: var(--btn);
+  z-index: 2;
 }
 
-.topic {
-  width: 40rem;
+.hero-text {
+  position: relative;
   font-size: 2rem;
-}
-
-.cnt {
-  font-size: 2rem;
+  display: grid;
+  grid-auto-rows: 4rem;
+  z-index: 2;
 }
