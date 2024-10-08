@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* TYPOGRAPHY */
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  /* WEIGHTS 
+  --reg: 400;
+  --med: 600;
+  --big: 700;
+  */
+  --btn: bold;
+  --heading: 500;
+  --content: normal;
+
+  /*COLOR*/
+  --drk-orange: #ff0000;
+  --lite-gry: #443737;
+  --drk-gry: #272121;
+  --lite-orange: #ff4d00;
+  --white: rgba(255, 255, 255);
+}
+form,
+input,
+button {
+  all: unset;
+  cursor: pointer;
+}
+nav {
+  padding: 0.5rem 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 3rem;
+  background-color: var(--drk-orange);
+  color: var(--white);
+}
+.logo {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: var(--btn);
+}
+
+/* SEARCH */
+
+.search {
+  margin-left: 5rem;
+  display: flex;
+}
+
+.search-input {
+  top: 1rem;
+  width: 20rem;
+  height: 2rem;
+  right: 5rem;
+  font-size: 1.3rem;
+  border: 5px solid var(--drk-gry);
+  background-color: var(--drk-gry);
+  position: relative;
+  border-radius: 20px;
+}
+
+.search-input::placeholder {
+  color: var(--white);
+}
+
+.search-icons {
+  position: absolute;
+  margin-left: 12rem;
+  top: 1.6rem;
+  font-size: 2rem;
+}
+/*MENU */
+menu {
+  width: 40%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 2rem;
+  column-gap: 0.1rem;
+}
+.bm-icon {
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.nav-btn {
+  font-size: 1.3rem;
+  padding: 0.3rem 0.6rem;
+  background-color: var(--drk-gry);
+  border: 5px solid var(--drk-gry);
+  color: var(--white);
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.hero-content {
+  background-image: url("./asset/pexels-anilsharma65-10927833.jpg");
+  background-size: contain;
+  opacity: 0.9;
+  filter: blur(1px);
+  position: relative;
+  padding: 10rem 30rem;
+  color: var(--white);
+  padding-left: 5rem;
+  display: grid;
+  grid-auto-rows: 5rem;
+}
+
+.hero-content::before {
+  content: "";
+}
+
+.wel-btn {
+  font-size: 1.3rem;
+  color: var(--drk-orange);
+  font-weight: var(--btn);
+}
+
+.topic {
+  width: 40rem;
+  font-size: 2rem;
+}
+
+.cnt {
+  font-size: 2rem;
+}
