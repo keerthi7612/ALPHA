@@ -1,0 +1,62 @@
+[
+  {
+    "Customer_ID": "C01",
+    "details": {
+      "Customer_name": "arun",
+      "Email_ID": "acbd@gmail.com",
+      "From": "chennai",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  },
+  {
+    "Customer_ID": "C02",
+    "details": {
+      "Customer_name": "arun",
+      "Email_ID": "acbd@gmail.com",
+      "From": "chennai",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  },
+  {
+    "Customer_ID": "C03",
+    "details": {
+      "Customer_name": "yyy",
+      "Email_ID": "eddie@gmail.com",
+      "From": "Delhi",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  },
+  {
+    "Customer_ID": "C04",
+    "details": {
+      "Customer_name": "max",
+      "Email_ID": "acbd@gmail.com",
+      "From": "chennai",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  },
+  {
+    "Customer_ID": "C05",
+    "details": {
+      "Customer_name": "eddie",
+      "Email_ID": "acbd@gmail.com",
+      "From": "chennai",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  },
+  {
+    "Customer_ID": "C06",
+    "details": {
+      "Customer_name": "logzz",
+      "Email_ID": "acbd@gmail.com",
+      "From": "chennai",
+      "No_of_rooms": 6,
+      "Rent_price": "10000/-"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "_orderId": "O-26-072024-001",
+    "_orderDet": {
+      "_userID": "U01",
+      "_empID": "E01",
+      "_order": [
+        { "_item": "F03", "_qty": 4 },
+        { "_item": "F02", "_qty": 6 }
+      ]
+    },
+    "_bill": 1420,
+    "_orderCompTime": "2024-07-26T16:44:57.544Z",
+    "_about": {
+      "_f": "About Food",
+      "_d": "About Delivery person",
+      "_e": "About the Employee"
+    }
+  },
+  {
+    "_orderId": "O-26-072024-002",
+    "_orderDet": {
+      "_userID": "U01",
+      "_empID": "E01",
+      "_order": [
+        { "_item": "F02", "_qty": 4 },
+        { "_item": "F02", "_qty": 6 }
+      ]
+    },
+    "_bill": 2000,
+    "_orderCompTime": "2024-07-26T16:45:06.038Z",
+    "_about": {
+      "_f": "About Food",
+      "_d": "About Delivery person",
+      "_e": "About the Employee"
+    }
+  }
+]

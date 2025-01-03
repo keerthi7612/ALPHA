@@ -1,0 +1,74 @@
+[
+  {
+    "fid": "F01",
+    "details": {
+      "createdAt": "2024-07-23T14:34.08.844M",
+      "modifiedAt": "2024-07-23T14:55.08.844M",
+      "foodName": "coffee",
+      "details": {
+        "foodDescription": "general food description",
+        "numReviews": 1,
+        "price": 300,
+        "ingredients": ["rice", "mutton", "spices", "vegetables"],
+        "cookingTime": "30",
+        "ratings": 4.3,
+        "category": "M",
+        "isNonVeg": true
+      }
+    }
+  },
+  {
+    "fid": "F02",
+    "details": {
+      "createdAt": "2024-07-23T14:34.08.844Z",
+      "modifiedAt": "2024-07-23T14:55.08.844Z",
+      "foodName": "beriyani",
+      "details": {
+        "foodDescription": "general food description",
+        "numReviews": 1,
+        "price": 300,
+        "ingredients": ["rice", "mutton", "spices", "vegetables"],
+        "cookingTime": "30",
+        "ratings": 4.3,
+        "category": "M",
+        "isNonVeg": true
+      }
+    }
+  },
+  {
+    "fid": "F03",
+    "details": {
+      "createdAt": "2024-07-23T14:34.08.844Z",
+      "modifiedAt": "2024-07-23T14:55.08.844Z",
+      "foodName": "coffee",
+      "details": {
+        "foodDescription": "general food description",
+        "numReviews": 1,
+        "price": 300,
+        "ingredients": ["rice", "mutton", "spices", "vegetables"],
+        "cookingTime": "30",
+        "ratings": 4.3,
+        "category": "M",
+        "isNonVeg": true
+      }
+    }
+  },
+  {
+    "fid": "F04",
+    "details": {
+      "createdAt": "2024-07-23T14:34.08.844Z",
+      "modifiedAt": "2024-07-23T14:55.08.844Z",
+      "foodName": "green rice",
+      "details": {
+        "foodDescription": "general food description",
+        "numReviews": 1,
+        "price": 300,
+        "ingredients": ["rice", "mutton", "spices", "vegetables"],
+        "cookingTime": "30",
+        "ratings": 4.3,
+        "category": "M",
+        "isNonVeg": true
+      }
+    }
+  }
+]

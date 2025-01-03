@@ -1,0 +1,22 @@
+[
+  {
+    "Room_no": "R05",
+    "details": {
+      "Premimum": true,
+      "Avgrating": 5,
+      "Price": 700,
+      "Num_of_reviews": 4,
+      "Description": "General Description about the Rooms"
+    }
+  },
+  {
+    "Room_no": "R06",
+    "details": {
+      "Premimum": true,
+      "Avgrating": 5,
+      "Price": 700,
+      "Num_of_reviews": 4,
+      "Description": "General Description about the Rooms"
+    }
+  }
+]
